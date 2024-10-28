@@ -8,7 +8,7 @@ on:
 env:
   IMAGE_NAME: ghcr.io/devops-cloud-mm/myapp/myimage:latest
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
-  GKE_CLUSTER: deployment-cluster-sdk
+  GKE_CLUSTER: cluster-1
   GKE_ZONE: us-central1-c
 
 jobs:
