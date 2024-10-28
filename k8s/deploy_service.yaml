@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demoapp
-          image: ghcr.io/devops-cloud-mm/myapp/myimage:latest
+          image: ghcr.io/devops-cloud-mm/cicd-spring-github-gke/myimage:latest
           ports:
             - containerPort: 8080
           env:
