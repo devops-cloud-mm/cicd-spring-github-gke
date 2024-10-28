@@ -22,7 +22,7 @@ spec:
           resources:
           # Set resource limits and requests, if needed
       imagePullSecrets:
-        - name: dockerconfigjson-github-com
+        - name: dockerconfigjson
 ---
 apiVersion: v1
 kind: Service
