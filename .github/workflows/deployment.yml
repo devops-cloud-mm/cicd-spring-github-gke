@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ghcr.io/devops-cloud-mm/cicd-spring-github-gke/myimage:latest
+  IMAGE_NAME: ghcr.io/devops-cloud-mm/myimage:latest
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
   GKE_CLUSTER: cluster-1
   GKE_ZONE: us-central1-c
