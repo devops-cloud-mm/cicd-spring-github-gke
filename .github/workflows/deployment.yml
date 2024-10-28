@@ -24,7 +24,7 @@ jobs:
           java-version: 19
       - run: mvn clean install --batch-mode --errors --fail-at-end
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: demo2-0.0.1-SNAPSHOT.jar
           path: target/
@@ -36,7 +36,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: Retrieve saved jar
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: demo2-0.0.1-SNAPSHOT.jar
           path: target/
